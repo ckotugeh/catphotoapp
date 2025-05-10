@@ -1,0 +1,35 @@
+body{
+    color: rgb(180, 140, 90);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h1{
+    background-color: rgb(34, 115, 185);
+    text-align: center;
+}
+.todo-list{
+    background-color: aqua;
+    width: 300px;
+    margin: 20px 20px 20px 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+a:hover {
+    color: blue;
+}
+a:active{
+    color: green;
+}
+a:focus{
+    outline: solid;
+}
+a:visited{
+    color: palevioletred;
+}
+.todo-list:li{
+    list-style-type: none;
+}
