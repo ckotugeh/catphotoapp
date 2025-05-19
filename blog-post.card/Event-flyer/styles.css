@@ -1,0 +1,45 @@
+body{
+  background-color: white;
+  color: default;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  min-height: calc(100vh - 100px);
+  
+}
+hr{
+  width: 100%;
+  color: 1rem bold rgb(19, 19, 27)
+}
+section{
+  width: 100%
+}
+.event-img{
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1, h2{
+  text-align: center;
+}
+.p-event{
+  margin-left:1.5rem;
+  font-size: 1.1em;
+}
+ul{
+  font-size: 1.15rem;
+  font-family: Trebutchet MS;
+  color: rgb(22, 21, 21);
+}
+ul+li{
+  padding: 1.2rem;
+}
+.footer{
+  
+ text-align: center;
+}
