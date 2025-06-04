@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles.css"></link>
+</head>
+<body>
+<div class="container">
+    <form>
+    <h1>Job Application Form</h1>
+    <label for="name">Name</label>
+    <input type="text" id="name" required placeholder="Enter Your full name"></input>
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter your email"></input>
+    <label for="position">Choose position you are apply</label>
+    <select id="position">
+        <option>Select</option>
+        <option>CTO</option>
+        <option>Tech Lead</option>
+        <option>Infromation Security Analyst</option>
+        <option>Software developer</option>
+    </select>
+    <fieldset class="radio-group">
+        <legend>Availability</legend>
+        
+<input type="radio" id="full-time" name="availability" checked></input><label for="full-time" id="radio">Full Time</label>
+        
+<input type="radio" name="availability" id="part-time"></input>
+        <label for="part-time" id="radio">Part Time</label>
+        </fieldset>
+         <label for="text-area">Why should this Sckot Ltd hire you for the role?</label>
+        <textarea id="message" placeholder="Explain why you're fit for the role."></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
